@@ -56,6 +56,15 @@ function DBExecute($query){
      DBClose($link);
      return $result;
 }
+    
+function DBDelete($table, $where = null){
+    $table = DB_PREFIX.'_'.$table;
+    $where = ($where) ? " WHERE {$where}" : null;
+    
+    $query = "DELETE FROM {$table}{$where}";
+    return DBExecute($query);
+    
+}
 
 ?>
 

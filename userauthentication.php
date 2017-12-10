@@ -14,11 +14,11 @@ $banco = "snackapp";
         <title>Autenticando usuário</title>
         <script type="text/javascript">
             function loginsucessfully() {
-                setTimeout("window.location='administrativo.php'", 5000);
+                setTimeout("window.location='administrativo.php'", 4000);
             }
 
             function loginfailed() {
-                setTimeout("window.location='index.php'", 5000);
+                setTimeout("window.location='index.php'", 4000);
             }
 
         </script>

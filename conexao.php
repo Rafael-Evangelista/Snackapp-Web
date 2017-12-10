@@ -2,10 +2,11 @@
  define('DB_HOSTNAME', 'localhost');
  define('DB_USERNAME', 'root');
  define('DB_PASSWORD', "");
- define('DB_DATABASE', 'snackapp');
+ define('DB_DATABASE', 'voxus');
  define('DB_PREFIX', 'spp');
  define('DB_CHARSET', 'utf8');
 
+ $conn = mysqli_connect(DB_HOSTNAME, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
 ?>
 
 

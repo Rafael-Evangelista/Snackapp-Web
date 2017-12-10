@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Rafael - Evangelista">
-    <link rel="icon" href="imagens/logo.png">
+    <link rel="icon" href="imagens/voxus_logo.png">
 
-    <title>Snack App</title>
+    <title>Voxus</title>
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
     <link href="css/theme.css" rel="stylesheet">
@@ -17,7 +17,7 @@
 
 <body role="document">
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-left navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -25,28 +25,18 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					</button>
-                <a class="brand pull-left"><img src="imagens/Logo.png" width="60" /></a>
+                <a class="brand pull-left"><img src="imagens/voxus_logo.png" width="40" /></a>
                 <div class="navbar-header">
                 </div>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li><a href="#">Usuários</a></li>
-                    <li><a href="#about">Vendas</a></li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Produtos <span class="caret"></span></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tasks <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="CadastroDeProdutos.php">Adicionar Produto</a></li>
-                            <li><a href="Consultarprodutos.php">Consultar Produto</a></li>
-                            <li><a href="#">Estoque</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Empresas <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Adicionar</a></li>
-                            <li><a href="#">####</a></li>
-                            <li><a href="#">####</a></li>
+                            <li><a href="CadastroDeTasks.php">Adicionar Tasks</a></li>
+                            <li><a href="Consultar.php">Consultar Tasks</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -71,8 +61,7 @@
                             <th>Situação</th>
                             <th>Nivel de acesso</th>
                             <th>Cadastrado</th>
-                            <th>Ações</th>
-                        </tr>
+                            <b></b></tr>
                     </thead>
                     <tbody>
                         <tr>
@@ -80,11 +69,8 @@
                             <td>Rafael Evangelista</td>
                             <td>Ativo</td>
                             <td>Administrador</td>
-                            <td>10/10/1980 10:15:20</td>
+                            <td>10/12/2017 10:15:20</td>
                             <td>
-                                <button type="button" class="btn btn-xs btn-primary">Visualizar</button>
-                                <button type="button" class="btn btn-xs btn-warning">Editar</button>
-                                <button type="button" class="btn btn-xs btn-danger">Apagar</button>
                             </td>
                         </tr>
                     </tbody>
